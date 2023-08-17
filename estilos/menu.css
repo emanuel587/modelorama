@@ -1,0 +1,87 @@
+/*el elmento no ocupara  ningun espacio*/
+#menu-bar{
+    display: none;
+
+}
+
+header label{
+ float:right;/* flota a la derecha*/
+ font-size: 150%;/* tamaño ded letra*/
+ margin: 6px;/* margenop*/
+ cursor:pointer;   
+}
+.menu{
+    position:absolute;
+    width:100%;
+    height:100%;
+    background-color: rgb(51, 51,51, .9);
+top: 50px;
+left: 0px;
+transition: all .3s;
+transform: translateX(100%);
+
+
+}
+.menu a{
+    display: block;
+    color: aliceblue;
+    height: 50px;
+    text-decoration: none;
+    padding: 15px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+.menu a:hover{
+    background-color: rgb(105, 105, 105,0.3);
+}
+#menu-bar:checked ~.menu{
+    transform: translateX(0%);
+}
+/*diseño responsivo para pantala de 1024 px*/
+@media(min-width: 1024px){
+.menu{
+    position:static;
+    width: auto;
+    height: auto;
+    transform: translateX(0%);
+    float: right;
+    display: flex;
+}
+
+menu a{      
+    border:none;
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,175 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #222;
+    color: #fff;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .head {
+    background-color: #111;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo a {
+    font-weight: 600;
+    font-size: 24px;
+    color: #fff;
+  }
+  
+  .navbar a {
+    color: #fff;
+    margin-left: 10px;
+  }
+  
+  .button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+  }
+  
+  .progress-bar {
+    height: 5px;
+    background-color: #007bff;
+    margin-top: 10px;
+  }
+  
+  .check {
+    fill: none;
+    stroke: #fff;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    margin-left: 10px;
+  }
+  
+  .contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+  }
+  
+  .contact__image-wrapper {
+    flex: 1;
+  }
+  
+  .contact__image {
+    max-width: 100%;
+  }
+  
+  .contact__right-side {
+    flex: 1;
+    padding-left: 50px;
+  }
+  
+  .contact__title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    padding: 20PX;
+  }
+  
+  .contact__form-wrapper {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto; /* Centrar el cuadro de mensaje horizontalmente */
+  padding: 20px; /* Aumentar el espacio interno del cuadro de mensaje */
+}
+  
+  .contact__input-line {
+    margin-bottom: 20px;
+  }
+  
+  .contact__label {
+    font-weight: 600;
+  }
+  
+  .contact__input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #333;
+    color: #fff;
+  }
+  .contact__submit-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    width: 100%; /* Hacer que el botón ocupe todo el ancho disponible */
+  }
+  
+  footer {
+    background-color: #111;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .pie {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: auto;
+    
+  }
+  
+  .pie p {
+    margin: 0;
+  }
+  
+  .sociales a {
+    color: #fff;
+    margin-left: 10px;
+  }
+  
+  .icon-instagram {
+    background-image: url('ruta-a-icon-instagram.png');
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+  }
+  
+  .icon-facebook {
+    background-image: url('ruta-a-icon-facebook.png');
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+  }
+  
+  .icon-twitter {
+    background-image: url('ruta-a-icon-twitter.png');
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+  }
+  footer {
+    margin-top: 80px;
+  }

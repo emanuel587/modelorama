@@ -1,0 +1,92 @@
+!DOCTYPE html>
+<html>
+<head>
+    <title>Página de Apuestas - UEFA Champions League</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 20px;
+        }
+        
+
+        h1 {
+            color: #e2d8d8;
+        }
+
+        form {
+            max-width: 400px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 4px;
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            color: #555;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="number"],
+        select {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin-bottom: 10px;
+        }
+
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+
+        .equipos {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .equipo {
+            flex: 0 0 200px;
+            margin: 10px;
+            padding: 10px;
+            background-color: #fff;
+            border-radius: 4px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .equipo img {
+            max-width: 100%;
+            margin-bottom: 10px;
+            border-radius: 4px;
+        }
+
+        .equipo h3 {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <h1>Bienvenido a la Página de Apuestas - UEFA Champions League</h1>
+
+    <form>
+        <!-- ... Código HTML del formulario ... -->
+    </form>
+
+    <h2>Equipos de la UEFA Champions League</h2>
+
+    <div class="equipos">
+        <!-- ... Código HTML de los equipos ... -->
+    </div>
+</body>
+</html>

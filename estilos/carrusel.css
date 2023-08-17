@@ -1,0 +1,61 @@
+/* Estilos generales del carrusel */
+.carousel {
+    width: 50%;
+    margin: 0 auto;
+  }
+  
+  /* Estilo de los indicadores del carrusel */
+  .carousel-indicators li {
+    background-color: #546964;
+  }
+  
+  .carousel-indicators .active {
+    background-color: #333;
+  }
+  
+  /* Estilos de las imágenes del carrusel */
+  .carousel-item img {
+    max-width: 100%;
+    max-height: 400px; /* Ajusta la altura según tus necesidades */
+    border-radius: 10%;
+    border: 3px solid #333;
+  }
+  
+  /* Estilos de los controles del carrusel */
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: #496170;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-top: -5px;
+  }
+  
+  .carousel-control-prev-icon:before,
+  .carousel-control-next-icon:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .carousel-control-prev-icon:before {
+    border-top: 2px solid #333;
+    border-left: 2px solid #333;
+    width: 6px;
+    height: 6px;
+  }
+  
+  .carousel-control-next-icon:before {
+    border-bottom: 2px solid #333;
+    border-right: 2px solid #333;
+    width: 6px;
+    height: 6px;
+  }
